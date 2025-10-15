@@ -81,7 +81,7 @@ section p:not(.not) > br{display: none;}
 a.btn_more{color: #373737; border-bottom: #373737 1px solid; font-weight: 500; display: inline-block;}
 .margin200{margin: 200px 0;}
 
-@media (max-width: 1100px){
+@media (max-width: 1300px){
   .margin200{margin: 150px 0;}
   section h3{font-size: 4rem;}
   section p{font-size: 2rem;}
@@ -131,7 +131,7 @@ a.btn_more{color: #373737; border-bottom: #373737 1px solid; font-weight: 500; d
 .technology .technology_list{display: grid; grid-template-columns: 50% 50%; align-items: center;}
 .technology img{width: 100%;}
 
-@media (max-width: 1100px){
+@media (max-width: 1300px){
   .technology .technology_list{grid-template-columns: 100%;}
   .technology h3{padding-top: 50px;}
   .technology .btn_more{margin-bottom: 50px;}
@@ -155,7 +155,7 @@ a.btn_more{color: #373737; border-bottom: #373737 1px solid; font-weight: 500; d
 .gallery ul li.active dl dd{opacity: 1;}
 .gallery ul li.active::before{width: 70%;}
 
-@media (max-width: 1100px){
+@media (max-width: 1300px){
   .gallery ul li{width: 100%;}
   .gallery ul li::before{width: 70%;}
   .gallery ul li dl dd{opacity: 1;}
@@ -184,4 +184,5 @@ a.btn_more{color: #373737; border-bottom: #373737 1px solid; font-weight: 500; d
   #footer .gotop img{width: 80%;}
   #footer .footer_link a:after{height: 10px;}
   #footer address span{display: block; padding: 3px 0;}
+
 }
