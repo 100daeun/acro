@@ -51,6 +51,7 @@ body{font-family: var(--main-font); font-size: 1.6rem; line-height: 1.5; color: 
 @media (max-width: 400px){
   .mgnb_wrap .mgnb{font-size: 2rem; padding: 15px 20px 5px;}
   .mgnb_wrap .mgnb span{font-size: 1.4rem;}
+  .mgnb_close{top: 35px;}
 }
 
 /* search */
@@ -191,4 +192,5 @@ a.btn_more{color: #373737; border-bottom: #373737 1px solid; font-weight: 500; d
   #footer address span{display: block; padding: 3px 0;}
 
 }
+
 
