@@ -48,6 +48,11 @@ body{font-family: var(--main-font); font-size: 1.6rem; line-height: 1.5; color: 
   #header .inner h1{position: static; transform: translateX(0);}
 }
 
+@media (max-width: 400px){
+  .mgnb_wrap .mgnb{font-size: 2rem; padding: 15px 20px 5px;}
+  .mgnb_wrap .mgnb span{font-size: 1.4rem;}
+}
+
 /* search */
 .search{position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: #fff; z-index: 20; display: none;}
 .search form{position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 80%; max-width: 950px;}
@@ -186,3 +191,4 @@ a.btn_more{color: #373737; border-bottom: #373737 1px solid; font-weight: 500; d
   #footer address span{display: block; padding: 3px 0;}
 
 }
+
